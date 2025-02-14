@@ -1,0 +1,83 @@
+.foot{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(25, 24, 24);
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fo1{
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+.fo1 h3{
+    margin: 20px 0px 30px 10px;
+}
+.fo1 p{
+    margin: 10px 0px 10px 10px;
+}
+.fo1 h4{
+    margin: 20px 0px 10px 10px;
+}
+.fo1 i{
+    color: rgba(255, 221, 0, 0.968);
+}
+.fo2{
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+.fo2 h3{
+    margin: 20px 0px 30px 10px;
+}
+.fo2 h4{
+    margin: 15px 0px 10px 10px;
+}
+.fo3{
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+.fo3 h3{
+    margin: 20px 0px 30px 10px;
+}
+.fo3 h4{
+    margin: 15px 0px 10px 10px;
+}
+.fo4{
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+.fo4 h3{
+    margin: 20px 0px 10px 10px;
+}
+.fo4 p{
+    margin: 0px 0px 0px 10px;
+}
+.fo4 h4{
+    margin: 10px 0px 30px 10px;
+}
+.fo4 input{
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+}
+.fo4 button{
+    padding: 10px;
+    background-color:rgba(255, 221, 0, 0.968) ;
+    border: none;
+}
+.fo4 a i{
+    font-size: medium;
+    margin: 10px 0px 0px 10px;
+    border: 2px solid rgba(255, 221, 0, 0.968);
+    padding: 10px;
+    background-color:rgba(255, 221, 0, 0.968) ;
+    color: black;
+    border-radius: 5px;
+}

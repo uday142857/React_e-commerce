@@ -1,0 +1,76 @@
+.ElectronicComponent{
+    margin: 50px;
+}
+.ElectronicComponent h1{
+    color: red;
+}
+.ElectronicComponent p{
+    margin-top: 20px;
+}
+.ElectronicComponent button{
+    margin-top: 20px;
+}
+.ElectronicComponent .ele{
+    width: 350px;
+    /* height: 450px; */
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+}
+.eleitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 47px;
+}
+.ele img{
+    width: 100%;
+    height: 300px;
+}
+.ele h3 {
+    margin: 10px;
+}
+.ele h4 {
+    margin: 10px;
+}
+.ele p {
+    margin: 10px;
+}
+.ani{
+    width: 1400px;
+    height: 400px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1663164736/display_1500/stock-vector-super-sale-header-or-banner-design-with-d-smartphone-smart-watch-voice-assistant-air-purifier-1663164736.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: animate 20s infinite ease-in-out forwards alternate-reverse;
+    transition: background-image 1s ease-in-out;
+}
+
+@keyframes animate{
+    0%
+    {
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/1663164736/display_1500/stock-vector-super-sale-header-or-banner-design-with-d-smartphone-smart-watch-voice-assistant-air-purifier-1663164736.jpg");
+    }
+    20%
+    {
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/705625729/display_1500/stock-vector-big-sale-and-cashback-discount-offer-social-media-banner-with-illustration-of-realistic-smartphones-705625729.jpg");
+    }
+    40%
+    {
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/2282200757/display_1500/stock-vector-online-electronics-shopping-app-on-smartphone-devices-coming-out-of-a-smartphone-screen-banner-2282200757.jpg");
+    }
+    60%
+    {
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/2294632621/display_1500/stock-vector--d-realistic-blue-headphones-isolated-on-light-background-banner-for-advertising-wireless-2294632621.jpg");
+    }
+    80%
+    {
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/2374418077/display_1500/stock-vector-promotional-banner-for-final-sale-vector-illustration-with-soaring-podium-and-neon-circle-for-2374418077.jpg");
+    }
+    100%
+    {
+        background-image: url("https://www.shutterstock.com/shutterstock/photos/1610422768/display_1500/stock-vector-electronics-and-devices-promotional-sale-banner-with-full-shopping-cart-technology-and-online-1610422768.jpg");
+    }
+
+}

@@ -1,0 +1,38 @@
+.jeweleryComponent{
+    margin: 50px;
+}
+.jeweleryComponent h1{
+    color: red;
+}
+.jeweleryComponent p{
+    margin-top: 20px;
+}
+.jeweleryComponent button{
+    margin-top: 20px 0 20px 0;
+
+}
+.jeweleryComponent .jewe{
+    width: 350px;
+    /* height: 450px; */
+    box-shadow: 0 0 10px black;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.jeweitems{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.jewe img{
+    width: 100%;
+    height: 300px;
+}
+.jewe h3 {
+    margin: 10px;
+}
+.jewe h4 {
+    margin: 10px;
+}
+.jewe p {
+    margin: 10px;
+}

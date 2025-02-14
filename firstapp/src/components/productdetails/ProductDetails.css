@@ -1,0 +1,16 @@
+.proit{
+    /* width: 900px; */
+    /* height: 450px; */
+    /* box-shadow: 0 0 10px black; */
+    margin: 10px;
+}
+.proit img{
+    width: 400px;
+    height: 400px;
+}
+.proit h3 {
+    margin: 10px;
+}
+.proit h4 {
+    margin: 10px;
+}

@@ -1,0 +1,6 @@
+.u1{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

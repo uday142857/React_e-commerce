@@ -1,0 +1,40 @@
+.WomensComponent{
+    margin: 50px;
+}
+.WomensComponent h1{
+    color: red;
+}
+.WomensComponent p{
+    margin-top: 20px;
+}
+.WomensComponent button{
+    margin-top: 20px 0 20px 0;
+
+}
+.WomensComponent .wom{
+    width: 350px;
+    /* height: 450px; */
+    box-shadow: 0 0 10px black;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.Womencloths{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+}
+.wom img{
+    width: 100%;
+    height: 300px;
+}
+.wom h3 {
+    margin: 10px;
+}
+.wom h4 {
+    margin: 10px;
+}
+.wom p {
+    margin: 10px;
+}
